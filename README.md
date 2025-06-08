@@ -8,4 +8,4 @@ Uses statistical features extracted from EEG signals.
 Applies XAI techniques (e.g., SHAP, PDP, ICE) to understand why the model makes its decisions — enabling trust, transparency, and clinical insight and visualize how features influence model predictions.
 
 # Dataset
-https://drive.google.com/drive/folders/16j8TwPh92DjikvzWOfhN37qARd6vTdPc?usp=drive_link
+![Graph-based analysis of brain connectivity in schizophrenia]https://drive.google.com/drive/folders/16j8TwPh92DjikvzWOfhN37qARd6vTdPc?usp=drive_link
