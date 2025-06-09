@@ -7,6 +7,8 @@ Classifies EEG recordings into Healthy and Schizophrenic classes.
 Uses statistical features extracted from EEG signals.
 Applies XAI techniques (e.g., SHAP, PDP, ICE) to understand why the model makes its decisions — enabling trust, transparency, and clinical insight and visualize how features influence model predictions.
 
-# Dataset
+for a detailed explaination, please check the [report](report.pdf)
+
+## Dataset
 Dataset is available in the paper[Graph-based analysis of brain connectivity in schizophrenia]and dataset contains electroencephalography (EEG) data from 14 patients with schizophrenia and 14 healthy controls.You can access the EEG data files from :
 (https://drive.google.com/drive/folders/16j8TwPh92DjikvzWOfhN37qARd6vTdPc?usp=drive_link)
