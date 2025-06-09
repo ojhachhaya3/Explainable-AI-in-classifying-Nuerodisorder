@@ -12,3 +12,9 @@ for a detailed explaination, please check the [report](report.pdf)
 ## Dataset
 Dataset is available in the paper[Graph-based analysis of brain connectivity in schizophrenia]and dataset contains electroencephalography (EEG) data from 14 patients with schizophrenia and 14 healthy controls.You can access the EEG data files from :
 (https://drive.google.com/drive/folders/16j8TwPh92DjikvzWOfhN37qARd6vTdPc?usp=drive_link)
+
+## Conclusion
+SHAP and Integrated Gradients analyses highlight that argmax, argmin, kurtosis, and skewness are the most influential features, with argmax and argmin showing the highest impact on predictions, particularly at specific time steps (5–10 and 15–17.5).Partial Dependence Plots further confirm that higher skewness and kurtosis values increase the likelihood of schizophrenia prediction, while argmax and argmin exhibit non-linear effects. Feature importance rankings consistently place abs_diff_signal, maxim, and ptp as top contributors to model output magnitude.Collectively, these findings suggest that the model effectively captures temporal and statistical patterns in EEG data, particularly thetiming and shape of signal distributions, to differentiate schizophrenia patients from healthy controls, providing a robust foundation for clinical decision support. 
+
+## Future Work
+Expanding Data Volume, Investigate advanced data augmentation techniques specific to EEG signals to increase the dataset size artificially, improving the model's generalization ability without the need for additional data collection.
